@@ -52,7 +52,6 @@ struct node *newnode = createnode(25); newnode->left = createnode(17); newnode->
 printf("Inorder traversal of tree 1 :"); inorder(newnode); largest(newnode);
 return 0;
 }
-
 ```
 
 ## Output:
